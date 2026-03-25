@@ -13,7 +13,7 @@ st.write("Choose a regression model and predict house prices.")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\Appu\Downloads\Ames_Housing_Subset(in) (2).csv")
+    df = pd.read_csv("Ames_Housing_Subset(in) (2).csv")
     return df
 
 df = load_data()
